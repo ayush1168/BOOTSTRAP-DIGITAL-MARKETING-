@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <style>/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}.col-sm-6{
+  align-items: center;
+  text-align: center;
+
+}
+</style>
+</head>
+<body>
+
+<div class="container-fluid">
+  
+  
+  <div class="container-fluid">
+    <!-- Control the column width, and how they should appear on different devices -->
+    <div class="row">
+      <div class="col-sm-12" style="background-color:white;"><nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="border-radius: 20px; width:100%">
+  <!-- Brand/logo -->
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="color:white">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="color:white">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="color:white";>Conatct Us</a>
+    </li>
+  </ul>
+</nav>
+</div>
+     
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-sm-12" style="background-color:lightgoldenrodyellow;">
+        <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="https://midriffinfosolution.org/wp-content/uploads/2022/08/15-min.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+               <h1>DIGITAL MARKETER </h1>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="second-slide" src="https://cdn.educba.com/academy/wp-content/uploads/2016/05/Importance-of-SEO-in-Digital-Marketing.jpg" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Hello Everyone</h1>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide" src="https://webmantra.net/BlogImages/future-of-digital-marketing-1080.jpg 
+
+
+
+
+            " alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1></h1>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="SQUARE" src="https://static.toiimg.com/imagenext/toiblogs/photo/readersblog/wp-content/uploads/2021/09/Does-SEO-Really-Help-Your-Website-To-Rank-Higher-On-Google.jpg" width="140" height="140">
+            <h2>Heading</h2>
+            <p>SEO stands for “search engine optimization.” In simple terms, it means the process of improving your site to increase its visibility when people search for products or services related to your business in Google, Bing, and other search engines.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="SQUARE" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO7TKkghG4xJkuBDF8c71SDUQ7Z3F0CIzy-Q&usqp=CAU" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Search engine marketing is a form of Internet marketing that involves the promotion of websites by increasing their visibility in search engine results pages primarily through paid advertising.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="SQUARE" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLg9OxKYzx7zJBhmRgvUGMcO8kLXwZmnA9u-UROsttrwEwMt4Lxn6zCAdyjZXdnITdm6g&usqp=CAU" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Email marketing is a form of direct marketing that uses email to promote your business's products or services. It can help make your customers aware of your latest items or offers. It can also play a pivotal role in teaching folks about your brand or keeping them engaged between purchases.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">AFFILIATE MARKETING <span class="text-muted"></span></h2>
+            <p class="lead">Affiliate marketing is a marketing arrangement in which affiliates receive a commission for each visit, signup or sale they generate for a merchant. This arrangement allows businesses to outsource part of the sales process</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="data:image/jpeg;base64,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" alt="Generic placeholder image" width="80000px" height="240000">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1600"  alt="Generic placeholder image" width="80000" height="240000">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTILvt89Sh32tbXQ4TOwjy-89Z8G_4mmQgb4w&usqp=CAU" alt="Generic placeholder image" width="80000" height="240000">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </main></div>
+      
+    </div>
+    <br>
+
+    <!-- Or let Bootstrap automatically handle the layout -->
+    <div class="row">
+      <div class="col-sm-6" style="background-color:lightyellow;"><div class="container">
+  
+                                        
+  <div class="spinner-grow text-muted"></div>
+  <div class="spinner-grow text-primary"></div>
+  <div class="spinner-grow text-success"></div>
+  <div class="spinner-grow text-info"></div>
+  <div class="spinner-grow text-warning"></div>
+  <div class="spinner-grow text-danger"></div>
+  <div class="spinner-grow text-secondary"></div>
+  <div class="spinner-grow text-dark"></div>
+  <div class="spinner-grow text-light"></div>
+</div>
+</div>
+      <div class="col-sm-6" style="background-color:lightcoral;"><body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#section1">Section 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section2">Section 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section3">Section 3</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Section 4
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#section41">Link 1</a>
+        <a class="dropdown-item" href="#section42">Link 2</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+<div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+  <h1>Section 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section41" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
+  <h1>Section 4 Submenu 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section42" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
+  <h1>Section 4 Submenu 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+</div>
+      </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-sm-12" style="background-color:lightgreen;"><div class="container mt-3">
+  <h2>Horizontal Direction</h2>
+  <p>Use .flex-row to make the flex items appear side by side (default):</p>
+  <div class="d-flex flex-row bg-secondary mb-3">
+    <div class="p-2 bg-info">Flex item 1</div>
+    <div class="p-2 bg-warning">Flex item 2</div>
+    <div class="p-2 bg-primary">Flex item 3</div>
+  </div>
+  <p>Use .flex-row-reverse to right-align the direction:</p>
+  <div class="d-flex flex-row-reverse bg-secondary">
+    <div class="p-2 bg-info">Flex item 1</div>
+    <div class="p-2 bg-warning">Flex item 2</div>
+    <div class="p-2 bg-primary">Flex item 3</div>
+  </div>
+</div>
+</div>
+</div>
+      <div class="row">
+      <div class="col-sm-12" style="background-color:lightgreen;">
+        <div class="container">
+  <h2>Simple Collapsible</h2>
+  <a href="#demo" class="btn btn-primary" data-toggle="collapse">Simple collapsible</a>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+  </div>
+  
+
+
+</body>
+</html>
